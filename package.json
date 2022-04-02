@@ -1,0 +1,32 @@
+{
+    "name": "musculacao-online-3.0-back",
+    "version": "1.0.0",
+    "description": "APIS Para o Projeto Musculação Online 3.0",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": " node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tico-e-Teco/musculacao-online-3.0-back.git"
+    },
+    "keywords": [
+        "api"
+    ],
+    "author": "tico-teco",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tico-e-Teco/musculacao-online-3.0-back/issues"
+    },
+    "homepage": "https://github.com/Tico-e-Teco/musculacao-online-3.0-back#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.1",
+        "mongoose": "^6.0.8"
+    }
+}
